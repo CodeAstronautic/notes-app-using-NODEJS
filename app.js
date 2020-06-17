@@ -1,2 +1,6 @@
-const fs = require('fs')
-fs.appendFileSync('notes.txt','My Name is kundan')
+const validator = require('validator')
+const getNotes = require('./notes')
+
+const chalk = require('chalk')
+
+console.log(chalk.blue('hello pooja'))
